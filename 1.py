@@ -1,6 +1,6 @@
-#1. READ THE IMAGE
-import cv2
-img = cv2.imread('1.jpg')# to read image
-cv2.imshow('Output',img) # to display image
-cv2.waitKey(3000) #wait for 3 secs , for 0 value it will stay forever
-cv2.destroyAllWindows() #it closes all python windows if its open
+#showing an image on opencv
+import cv2 as cv
+img=cv.imread(r'C:\tmp\0000.png')#The function destroyAllWindows destroys all of the opened HighGUI windows.
+cv.imshow('image',img)#The function imshow displays an image in the specified window
+cv.waitKey(0)#The function waitKey waits for a key event infinitely
+cv.destroyAllWindows#The function destroyAllWindows destroys all of the opened HighGUI windows.
