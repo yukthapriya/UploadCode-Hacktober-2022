@@ -1,4 +1,13 @@
-#3. READ THE INFO ABOUT THE IMAGE
-import cv2
-img = cv2.imread('1.jpg')
-print(img.shape)
+#showing image in multiple colurs(r,g,b)
+import cv2 as cv
+img=cv.imread(r'C:\tmp\0000.png')
+B,G,R=cv.split(img)
+cv.imshow('image',img)
+cv.waitKey(0)
+cv.imshow('blue',B)
+cv.waitKey(0)
+cv.imshow('green',G)
+cv.waitKey(0)
+cv.imshow('red',R)
+cv.waitKey(0)
+cv.destroyAllWindows
