@@ -1,4 +1,4 @@
-#image resizing 
+
 #image resizing refers to scaling of images and helps in redusing the nnumbers of pixels
 
 import cv2 as cv
