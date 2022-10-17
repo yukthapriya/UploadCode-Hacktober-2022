@@ -1,4 +1,4 @@
-#arthematic operations on opencv
+#Arthmetic operations on opencv
 #we can add two images using cv2.add() function and subtract using subtract() function
 import cv2 as cv
 img1=cv.imread(r'C:\tmp\sample1.png')
