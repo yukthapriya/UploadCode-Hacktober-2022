@@ -1,6 +1,6 @@
 import string
 import random
-
+#This is a very good program to generate random password
 # Getting password length
 length = int(input("Enter password length: "))
 
