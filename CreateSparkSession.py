@@ -3,3 +3,4 @@ spark = (SparkSession
 .builder
 .appName("<app_name>")
 .getOrCreate())
+#sparksession
